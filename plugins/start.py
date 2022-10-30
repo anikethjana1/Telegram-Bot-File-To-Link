@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>Please Join The Channel ❤️\n\nTO ACCESS REGEX FILE MANAGER BOT</b>"
+    text = "<b>Please Join Channel ❤️\n\nTo access our lovely file manager bot 🤗</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
